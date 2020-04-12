@@ -1,0 +1,11 @@
+<resources>
+    <string name="lab3_title" translatable="false">I\'m %s!</string>
+
+    <string name="lab3_first_name" translatable="false">First name</string>
+    <string name="lab3_second_name" translatable="false">Second name</string>
+    <string name="lab3_last_name" translatable="false">Last name</string>
+    <string name="lab3_action_save" translatable="false">Save</string>
+
+    <string name="lab3_error_already_exists" translatable="false">The student already exists</string>
+    <string name="lab3_error_empty_fields" translatable="false">All fields must not be empty</string>
+</resources>
