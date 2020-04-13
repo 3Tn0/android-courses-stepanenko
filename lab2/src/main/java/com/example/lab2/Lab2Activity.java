@@ -35,9 +35,8 @@ public class Lab2Activity extends AppCompatActivity {
                 lab2ViewsContainer.addRatingLine(name, Double.valueOf(rating));
             }
             else{
-                Toast.makeText(this, "Введите наименование и рейтинг!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, R.string.lab2_msg2, Toast.LENGTH_LONG).show();
             }
-
         });
 
         if (savedInstanceState != null) {

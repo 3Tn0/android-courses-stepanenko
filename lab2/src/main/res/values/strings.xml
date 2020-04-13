@@ -3,4 +3,6 @@
     <string name="input_name_hint">Name</string>
     <string name="input_rate_hint">Rating</string>
     <string name="lab2_btn_add_view">Press me!</string>
+    <string name="lab2_msg1">Enter a rating value from 0 to 10</string>
+    <string name="lab2_msg2">Enter the name and rating value!</string>
 </resources>

@@ -2,12 +2,10 @@ package com.example.lab2;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.text.Layout;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -45,7 +43,7 @@ public class Lab2ViewsContainer extends LinearLayout {
     public void addRatingLine(String name, double rating){
 
         if (rating < 0 || rating > 10){
-            Toast.makeText(this.getContext(), "Введите значение рейтинга от 0 до 10", Toast.LENGTH_LONG).show();
+            Toast.makeText(this.getContext(), R.string.lab2_msg1, Toast.LENGTH_LONG).show();
         }
         else{
             Lab2RatingLine lab2RatingLine = new Lab2RatingLine(name, rating);
@@ -96,7 +94,6 @@ public class Lab2ViewsContainer extends LinearLayout {
                 highestRating = ratingLine.getRating();
             }
         }
-
         for (Lab2RatingLine ratingLine : ratingLines) {
             showRatingLine(ratingLine.getName(),ratingLine.getRating());
         }

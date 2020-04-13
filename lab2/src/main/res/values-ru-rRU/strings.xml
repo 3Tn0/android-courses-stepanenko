@@ -4,4 +4,6 @@
     <string name="input_name_hint">Наименование</string>
     <string name="input_rate_hint">Рейтинг</string>
     <string name="lab2_btn_add_view">Нажми меня!</string>
+    <string name="lab2_msg1">Введите значение рейтинга от 0 до 10</string>
+    <string name="lab2_msg2">Введите наименование и рейтинг!</string>
 </resources>
