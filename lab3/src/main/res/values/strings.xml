@@ -8,4 +8,12 @@
 
     <string name="lab3_error_already_exists" translatable="false">The student already exists</string>
     <string name="lab3_error_empty_fields" translatable="false">All fields must not be empty</string>
+    <string name="lab3_error_group_already_exists" translatable="false">The group already exists</string>
+    <string name="lab3_error_empty_group_fields" translatable="false">Group name must not be empty</string>
+
+    <string name="lab3_alert_title" translatable="false">Adding a new group</string>
+    <string name="lab3_alert_message" translatable="false">Enter the name of the group</string>
+    <string name="lab3_alert_cancel" translatable="false">Cancel</string>
+
+    <string name="lab3_error_no_groups" translatable="false">Create a group first</string>
 </resources>

@@ -9,4 +9,12 @@
 
     <string name="lab3_error_already_exists">Такой студент уже существует</string>
     <string name="lab3_error_empty_fields">Все поля должны быть заполнены</string>
+    <string name="lab3_error_group_already_exists" translatable="false">Такая группа уже существует</string>
+    <string name="lab3_error_empty_group_fields" translatable="false">Название группы должно быть заполнено</string>
+
+    <string name="lab3_alert_title" translatable="false">Создание новой группы</string>
+    <string name="lab3_alert_message" translatable="false">Введите название группы</string>
+    <string name="lab3_alert_cancel" translatable="false">Отмена</string>
+
+    <string name="lab3_error_no_groups" translatable="false">Сначала создайте группу</string>
 </resources>
