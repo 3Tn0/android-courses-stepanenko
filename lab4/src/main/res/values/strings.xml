@@ -1,15 +1,19 @@
 <resources>
-    <string name="lab4_title">I\'m %s!</string>
+    <string name="lab4_title" translatable="false">I\'m %s!</string>
 
-    <string name="lab4_first_name">First name</string>
-    <string name="lab4_second_name">Second name</string>
-    <string name="lab4_last_name">Last name</string>
+    <string name="lab4_first_name" translatable="false">First name</string>
+    <string name="lab4_second_name" translatable="false">Second name</string>
+    <string name="lab4_last_name" translatable="false">Last name</string>
+    <string name="lab4_action_save" translatable="false">Save</string>
 
-    <string name="lab4_action_save">Save</string>
-    <string name="lab4_action_add_photo">Add photo</string>
+    <string name="lab4_error_already_exists" translatable="false">The student already exists</string>
+    <string name="lab4_error_empty_fields" translatable="false">All fields must not be empty</string>
+    <string name="lab4_error_group_already_exists" translatable="false">The group already exists</string>
+    <string name="lab4_error_empty_group_fields" translatable="false">Group name must not be empty</string>
 
+    <string name="lab4_alert_title" translatable="false">Adding a new group</string>
+    <string name="lab4_alert_message" translatable="false">Enter the name of the group</string>
+    <string name="lab4_alert_cancel" translatable="false">Cancel</string>
 
-    <string name="lab4_error_empty_fields">All fields must not be empty</string>
-    <string name="lab4_error_already_exists">The student already exists</string>
+    <string name="lab4_error_no_groups" translatable="false">Create a group first</string>
 </resources>
-
