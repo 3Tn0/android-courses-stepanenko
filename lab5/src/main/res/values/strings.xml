@@ -1,3 +1,4 @@
 <resources>
     <string name="lab5_title">I\'m %s!</string>
+    <string name="lab5_fetching_error">An error has occurred. You can resend the request</string>
 </resources>

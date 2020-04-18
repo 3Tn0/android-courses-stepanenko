@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="lab5_title">Я %s!</string>
+    <string name="lab5_fetching_error">Произошла ошибка. Вы можете повторить запрос</string>
 </resources>
